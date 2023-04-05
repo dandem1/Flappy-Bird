@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+*{
+    font-family: Delicious Handrawn;
+}
+canvas {
+    box-shadow: 0 0 5px black;
+}
+
+.canvas{
+    margin: 0 auto;
+    width: 270px;
+    justify-content: center;
+}
+
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.control {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    font-size: 30px;
+}
+
+.description{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
